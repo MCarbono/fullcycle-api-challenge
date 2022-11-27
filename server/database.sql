@@ -1,0 +1,16 @@
+CREATE DATABASE dollar_cotation
+
+CREATE TABLE `cotations` (
+    `id` varchar(255),
+    `code` varchar(255),
+    `codein` varchar(255),
+    `name` varchar(255),
+    `high` varchar(255),
+    `low` varchar(255),
+    `varBid` varchar(255),
+    `pctChange` varchar(255),
+    `bid` varchar(255),
+    `ask` varchar(255),
+    `timestamp` TIMESTAMP,
+    `create_date` DATE(255)
+);
